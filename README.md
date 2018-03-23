@@ -2,6 +2,9 @@
 CSV formatted data of results from 97k+ election sites.
 ##### Based on Sergey Shpilkin raw data. https://podmoskovnik.livejournal.com/
 ##### Raw data can be obtained from google drive: https://drive.google.com/file/d/1hQQM_ceSzwVWBVyJJynW3_3UNKaJe4o5/view?usp=sharing
+## File types: 
+ - *-utf8.csv files can be used in python
+ - *-utf8-sig.csv files can be used for excel-based processing (this is a correct encoding to view cyrillic chars in excel with no additional config) 
 # What columns means:
   - region_name - name of region where election site was located
   - tik_name - name of terrirorial election comission (oftenly based on district name)
